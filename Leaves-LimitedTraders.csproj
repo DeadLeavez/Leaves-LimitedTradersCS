@@ -29,7 +29,9 @@
     </None>
   </ItemGroup>
 
-  <Target Name="CopyToSecondaryLocation" AfterTargets="Build">
+  <!-- SkipModPackaging=true (passed by tools/ConfigSync) skips the _dist zip dance for a
+       build that only needs the compiled assembly. A normal build still packages. -->
+  <Target Name="CopyToSecondaryLocation" AfterTargets="Build" Condition="'$(SkipModPackaging)' != 'true'">
     <ItemGroup>
       <OutputFiles Include="$(OutputPath)**\*.*" />
     </ItemGroup>
