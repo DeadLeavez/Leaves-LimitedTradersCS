@@ -3,6 +3,9 @@ Reduces the stock of all traders, with optional per-category price adjustments.
 
 This mod will make traders have a much more limited stock of items available for purchase. I use this for more hardcore economy runs.
 
+## Requirements
+- [Leaves-LeavesUtil](https://github.com/DeadLeavez/Leaves-LeavesUtil) ([latest release](https://github.com/DeadLeavez/Leaves-LeavesUtil/releases/latest)) - required.
+
 ## 1.0.0
 - Release
 
