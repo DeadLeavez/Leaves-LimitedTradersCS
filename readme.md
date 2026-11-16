@@ -54,3 +54,6 @@ Previous config files ARE compatible.
   `"54009119af1c881c07000029"`.
 - `categories` keys are now checked on startup: a key that isn't a category or a real item is
   logged (it just won't match anything), and the web config editor refuses to save one.
+
+## 2.0.0
+- Updated to SPT 4.0.x (not compatible with 4.1.x).
